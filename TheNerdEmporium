@@ -42,6 +42,14 @@
 <item>InuYasha</item>
 <price>22.00</price>
 <section>
+<section name="Comics Book">
+<item>Spider Man</item>
+<price>5.00</price>
+<item>Batman</item>
+<price>7.50</price>
+<item>The Scarlet Witch</item>
+<price>12.00</price>
+<section>
 
 </catalog>
 
