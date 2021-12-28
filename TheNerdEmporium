@@ -34,7 +34,13 @@
 <item>The Hobbit</item>
 <price>10.00</price>
 <section>
-
+<section name="Hoodies">
+<item>Saint Seya</item>
+<price>15.00</price>
+<item>Attack on Titan</item>
+<price>10.50</price>
+<item>InuYasha</item>
+<price>22.00</price>
 <section>
 </catalog>
 
