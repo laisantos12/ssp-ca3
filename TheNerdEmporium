@@ -19,13 +19,22 @@
 </dc>
 </section>
 <section name="T-Shirts">
-<item>X-Men</X-man></item>
+<item>X-Men</item>
 <price>25.00</price>
 <item>Stranger Things</item>
 <price>20.50</price>
 <item>Friends</item>
 <price>22.00</price>
 <section>
+<section name="Hats">
+<item>Harry Potter</item>
+<price>5.00</price>
+<item>Lord of the Rings</item>
+<price>8.50</price>
+<item>The Hobbit</item>
+<price>10.00</price>
+<section>
 
+<section>
 </catalog>
 
