@@ -10,7 +10,12 @@
 <price>12.50</price>
 </marvel>
 <dc>
-
+<item>Superman</item>
+<price>10.00</price>
+<item>Wonder Woman</item>
+<price>12.00</price>
+<item>The Flash</item>
+<price>9.55</price>
 </dc>
 </section>
 </catalog>
