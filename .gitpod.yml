@@ -1,3 +1,7 @@
 tasks:
   - name: Installing XSLT3
     command: npm i -g xslt3
+
+ports:
+  - port: 3000
+    onOpen: open-preview
