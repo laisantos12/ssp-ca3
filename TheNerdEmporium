@@ -18,5 +18,14 @@
 <price>9.55</price>
 </dc>
 </section>
+<section name="T-Shirts">
+<item>X-Men</X-man></item>
+<price>25.00</price>
+<item>Stranger Things</item>
+<price>20.50</price>
+<item>Friends</item>
+<price>22.00</price>
+<section>
+
 </catalog>
 
