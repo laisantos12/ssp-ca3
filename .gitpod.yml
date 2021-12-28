@@ -1,0 +1,3 @@
+tasks:
+  - name: Installing XSLT3
+    command: npm i -g xslt3
