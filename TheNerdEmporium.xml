@@ -1,54 +1,86 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalog>
 <section name="Funkos">
-<marvel>
+<collectibles>
 <item>Black Widow</item>
 <price>12.50</price>
+</collectibles>
+<collectibles>
 <item>Iron Man</item>
 <price>15.50</price>
+</collectibles>
+<collectibles>
 <item>Hulk</item>
 <price>12.50</price>
-</marvel>
-<dc>
+</collectibles>
+<collectibles>
 <item>Superman</item>
 <price>10.00</price>
+</collectibles>
+<collectibles>
 <item>Wonder Woman</item>
 <price>12.00</price>
+</collectibles>
+<collectibles>
 <item>The Flash</item>
 <price>9.55</price>
-</dc>
+</collectibles>
 </section>
 <section name="T-Shirts">
+<collectibles>
 <item>X-Men</item>
 <price>25.00</price>
+</collectibles>
+<collectibles>
 <item>Stranger Things</item>
 <price>20.50</price>
+</collectibles>
+<collectibles>
 <item>Friends</item>
 <price>22.00</price>
+</collectibles>
 </section>
 <section name="Hats">
+<collectibles>
 <item>Harry Potter</item>
 <price>5.00</price>
+</collectibles>
+<collectibles>
 <item>Lord of the Rings</item>
 <price>8.50</price>
+</collectibles>
+<collectibles>
 <item>The Hobbit</item>
 <price>10.00</price>
+</collectibles>
 </section>
 <section name="Hoodies">
+<collectibles>
 <item>Saint Seya</item>
 <price>15.00</price>
+</collectibles>
+<collectibles>
 <item>Attack on Titan</item>
 <price>10.50</price>
+</collectibles>
+<collectibles>
 <item>InuYasha</item>
 <price>22.00</price>
+</collectibles>
 </section>
 <section name="Comic Books">
+<collectibles>
 <item>Spider Man</item>
 <price>5.00</price>
+</collectibles>
+<collectibles>
 <item>Batman</item>
 <price>7.50</price>
+</collectibles>
+<collectibles>
 <item>The Scarlet Witch</item>
 <price>12.00</price>
+</collectibles>
 </section>
 </catalog>
 
