@@ -1,73 +1,75 @@
+
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalog>
-  <section name="Funkos">
-    <collectibles>
-      <item>Coke</item>
-      <price>2.50</price>
-    </collectibles>
-    <collectibles>
-      <item>Vodka</item>
-      <price>15</price>
-    </entry>
-    <entry vegetarian="true">
-      <item>Kombucha</item>
-      <price>2.0</price>
-    </entry>
-  </section>
-  <section name="Side Dishes">
-    <entry>
-      <item>Potato Salad</item>
-      <price>4.95</price>
-    </entry>
-    <entry>
-      <item>Chips</item>
-      <price>4.50</price>
-    </entry>
-    <entry vegetarian="true">
-      <item>Rice</item>
-      <price>4.0</price>
-    </entry>
-  </section>
-  <section name="Breakfast">
-    <entry>
-      <item>Eggs Benedict</item>
-      <price>12.99</price>
-    </entry>
-    <entry>
-      <item>Pouched Eggs</item>
-      <price>8</price>
-    </entry>
-    <entry vegetarian="true">
-      <item>French Toast</item>
-      <price>10</price>
-    </entry>
-  </section>
-  <section name="Lunch">
-    <entry>
-      <item>Grilled Chicken Sandwich</item>
-      <price>7.50</price>
-    </entry>
-    <entry>
-      <item>Soup of the Day</item>
-      <price>6</price>
-    </entry>
-    <entry vegetarian="true">
-      <item>Falafel</item>
-      <price>10</price>
-    </entry>
-  </section>
-  <section name="Dinner">
-    <entry>
-      <item>Ribeye Steak</item>
-      <price>19.99</price>
-    </entry>
-    <entry>
-      <item>Sushi</item>
-      <price>15</price>
-    </entry>
-    <entry vegetarian="true">
-      <item>Shakshuka</item>
-      <price>15</price>
-    </entry>
-  </section>
-</menu>
+<section name="Funkos">
+<collectibles>
+<item>Black Widow</item>
+<price>12.50</price>
+</collectibles>
+<collectibles>
+<item>Iron Man</item>
+<price>15.50</price>
+</collectibles>
+<collectibles>
+<item>Hulk</item>
+<price>12.50</price>
+</collectibles>
+</section>
+<section name="T-Shirts">
+<collectibles>
+<item>X-Men</item>
+<price>25.00</price>
+</collectibles>
+<collectibles>
+<item>Stranger Things</item>
+<price>20.50</price>
+</collectibles>
+<collectibles>
+<item>Friends</item>
+<price>22.00</price>
+</collectibles>
+</section>
+<section name="Hats">
+<collectibles>
+<item>Harry Potter</item>
+<price>5.00</price>
+</collectibles>
+<collectibles>
+<item>Lord of the Rings</item>
+<price>8.50</price>
+</collectibles>
+<collectibles>
+<item>The Hobbit</item>
+<price>10.00</price>
+</collectibles>
+</section>
+<section name="Hoodies">
+<collectibles>
+<item>Saint Seya</item>
+<price>15.00</price>
+</collectibles>
+<collectibles>
+<item>Attack on Titan</item>
+<price>10.50</price>
+</collectibles>
+<collectibles>
+<item>InuYasha</item>
+<price>22.00</price>
+</collectibles>
+</section>
+<section name="Comic Books">
+<collectibles>
+<item>Spider Man</item>
+<price>5.00</price>
+</collectibles>
+<collectibles>
+<item>Batman</item>
+<price>7.50</price>
+</collectibles>
+<collectibles>
+<item>The Scarlet Witch</item>
+<price>12.00</price>
+</collectibles>
+</section>
+</catalog>
+
