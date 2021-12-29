@@ -1,7 +1,4 @@
-
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalog>
-<section name="Funkos">
 <collectibles>
 <item>Black Widow</item>
 <price>12.50</price>
@@ -12,7 +9,7 @@
 </collectibles>
 <collectibles>
 <item>Hulk</item>
-<price>12.50</price>
+<price>13.50</price>
 </collectibles>
 </section>
 <section name="T-Shirts">
@@ -49,7 +46,7 @@
 <price>15.00</price>
 </collectibles>
 <collectibles>
-<item>Attack on Titan</item>
+<item>Attack on Titans</item>
 <price>10.50</price>
 </collectibles>
 <collectibles>
