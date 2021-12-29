@@ -1,0 +1,19 @@
+{
+  "name": "ss-project",
+  "version": "1.0.0",
+  "description": "pratical assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laisantos12/ssp-ca3.git"
+  },
+  "author": "Lais Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laisantos12/ssp-ca3/issues"
+  },
+  "homepage": "https://github.com/laisantos12/ssp-ca3#readme"
+}
