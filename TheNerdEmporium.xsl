@@ -16,9 +16,11 @@
                         <xsl:value-of select="@name" />
                     </td>
                 </tr>
-                <xsl:for-each select="marvel">
+                <xsl:for-each select="entry">
                     <tr id="{position()}">
-                        
+                        <xsl:attribute name="vegetarian">
+                            <xsl:value-of select="boolean(@vegetarian)" />
+                        </xsl:attribute>
                         <td align="center">
                             <input name="item0" type="checkbox" />
                         </td>
