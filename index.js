@@ -56,30 +56,31 @@ function XMLtoJSON(filename, cb) {
     
     });
     
-    // router.post('/post/json', function (req, res) {
+    //adding item
+    router.post('/post/json', function (req, res) {
     
-    //     function appendJSON(obj) {
+        function appendJSON(obj) {
     
-    //         console.log(obj)
+            console.log(obj)
     
-    //         XMLtoJSON('PaddysCafe.xml', function (err, result) {
-    //             if (err) throw (err);
+            XMLtoJSON('TheNerdEmporium.xml', function (err, result) {
+                if (err) throw (err);
                 
-    //             result.menu.section[obj.sec_n].entry.push({'item': obj.item, 'price': obj.price});
+                result.catalog.section[obj.sec_n].collectible.push({'item': obj.item, 'price': obj.price});
     
-    //             console.log(JSON.stringify(result, null, "  "));
+                console.log(JSON.stringify(result, null, "  "));
     
-    //             JSONtoXML('PaddysCafe.xml', result, function(err){
-    //                 if (err) console.log(err);
-    //             });
-    //         });
-    //     };
+                JSONtoXML('TheNerdEmporium.xml', result, function(err){
+                    if (err) console.log(err);
+                });
+            });
+        };
     
-    //     appendJSON(req.body);
+        appendJSON(req.body);
     
-    //     res.redirect('back');
+        res.redirect('back');
     
-    // });
+    });
     
     // router.post('/post/delete', function (req, res) {
     
@@ -87,14 +88,14 @@ function XMLtoJSON(filename, cb) {
     
     //         console.log(obj)
     
-    //         XMLtoJSON('PaddysCafe.xml', function (err, result) {
+    //         XMLtoJSON('TheNerdEmporium.xml', function (err, result) {
     //             if (err) throw (err);
                 
-    //             delete result.menu.section[obj.section].entry[obj.entree];
+    //             delete result.catalog.section[obj.section].collectible[obj.item];
     
     //             console.log(JSON.stringify(result, null, "  "));
     
-    //             JSONtoXML('PaddysCafe.xml', result, function(err){
+    //             JSONtoXML('TheNerdEmporium.xml', result, function(err){
     //                 if (err) console.log(err);
     //             });
     //         });
