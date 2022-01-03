@@ -13,6 +13,10 @@
       <item>Hulk</item>
       <price>13.50</price>
     </collectibles>
+    <collectibles>
+      <item>Hermione</item>
+      <price>20.00</price>
+    </collectibles>
   </section>
   <section name="T-Shirts">
     <collectibles>
@@ -26,6 +30,10 @@
     <collectibles>
       <item>Friends</item>
       <price>22.00</price>
+    </collectibles>
+    <collectibles>
+      <item>Capitain America</item>
+      <price>12.50</price>
     </collectibles>
   </section>
   <section name="Hats">
