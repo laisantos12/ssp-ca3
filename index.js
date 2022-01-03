@@ -66,7 +66,7 @@ function XMLtoJSON(filename, cb) {
             XMLtoJSON('TheNerdEmporium.xml', function (err, result) {
                 if (err) throw (err);
                 
-                result.catalog.section[obj.sec_n].collectible.push({'item': obj.item, 'price': obj.price});
+                result.catalog.section[obj.sec_n].collectibles.push({'item': obj.item, 'price': obj.price});
     
                 console.log(JSON.stringify(result, null, "  "));
     
@@ -82,30 +82,30 @@ function XMLtoJSON(filename, cb) {
     
     });
     
-    // router.post('/post/delete', function (req, res) {
+    router.post('/post/delete', function (req, res) {
     
-    //     function deleteJSON(obj) {
+        function deleteJSON(obj) {
     
-    //         console.log(obj)
+            console.log(obj)
     
-    //         XMLtoJSON('TheNerdEmporium.xml', function (err, result) {
-    //             if (err) throw (err);
+            XMLtoJSON('TheNerdEmporium.xml', function (err, result) {
+                if (err) throw (err);
                 
-    //             delete result.catalog.section[obj.section].collectible[obj.item];
+                delete result.catalog.section[obj.section].collectibles[obj.item];
     
-    //             console.log(JSON.stringify(result, null, "  "));
+                console.log(JSON.stringify(result, null, "  "));
     
-    //             JSONtoXML('TheNerdEmporium.xml', result, function(err){
-    //                 if (err) console.log(err);
-    //             });
-    //         });
-    //     };
+                JSONtoXML('TheNerdEmporium.xml', result, function(err){
+                    if (err) console.log(err);
+                });
+            });
+        };
     
-    //     deleteJSON(req.body);
+        deleteJSON(req.body);
     
-    //     res.redirect('back');
+        res.redirect('back');
     
-    // });
+    });
     
     server.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function() {
         const addr = server.address();
