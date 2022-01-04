@@ -7893,24 +7893,3 @@ textarea.form-control-lg {
   border-bottom-left-radius: 0.25rem !important;
   border-top-left-radius: 0.25rem !important;
 }
-
-.visible {
-  visibility: visible !important;
-}
-
-.invisible {
-  visibility: hidden !important;
-}
-
-@media (min-width: 576px) {
-  .float-sm-start {
-    float: left !important;
-  }
-
-  .float-sm-end {
-    float: right !important;
-  }
-
-  .float-sm-none {
-    float: none !important;
-  }
