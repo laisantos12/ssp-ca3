@@ -7954,15 +7954,3 @@ textarea.form-control-lg {
   .d-sm-none {
     display: none !important;
   }
-
-  .flex-sm-fill {
-    flex: 1 1 auto !important;
-  }
-
-  .flex-sm-row {
-    flex-direction: row !important;
-  }
-
-  .flex-sm-column {
-    flex-direction: column !important;
-  }
