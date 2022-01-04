@@ -6621,21 +6621,13 @@ textarea.form-control-lg {
   opacity: 1 !important;
 }
 
-.overflow-auto {
-  overflow: auto !important;
-}
 
-.overflow-hidden {
-  overflow: hidden !important;
-}
 
-.overflow-visible {
-  overflow: visible !important;
-}
 
-.overflow-scroll {
-  overflow: scroll !important;
-}
+
+
+
+
 
 .d-inline {
   display: inline !important;
@@ -6652,25 +6644,6 @@ textarea.form-control-lg {
 .d-grid {
   display: grid !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .order-first {
   order: -1 !important;
