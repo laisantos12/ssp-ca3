@@ -6750,29 +6750,7 @@ textarea.form-control-lg {
   left: 100% !important;
 }
 
-.end-0 {
-  right: 0 !important;
-}
 
-.end-50 {
-  right: 50% !important;
-}
-
-.end-100 {
-  right: 100% !important;
-}
-
-.translate-middle {
-  transform: translate(-50%, -50%) !important;
-}
-
-.translate-middle-x {
-  transform: translateX(-50%) !important;
-}
-
-.translate-middle-y {
-  transform: translateY(-50%) !important;
-}
 
 
 
