@@ -7006,29 +7006,6 @@ textarea.form-control-lg {
   gap: 3rem !important;
 }
 
-.justify-content-start {
-  justify-content: flex-start !important;
-}
-
-.justify-content-end {
-  justify-content: flex-end !important;
-}
-
-.justify-content-center {
-  justify-content: center !important;
-}
-
-.justify-content-between {
-  justify-content: space-between !important;
-}
-
-.justify-content-around {
-  justify-content: space-around !important;
-}
-
-.justify-content-evenly {
-  justify-content: space-evenly !important;
-}
 
 
 
