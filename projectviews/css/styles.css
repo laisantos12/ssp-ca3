@@ -3835,56 +3835,6 @@ textarea.form-control-lg {
   color: #adb5bd;
 }
 
-.btn-group,
-.btn-group-vertical {
-  position: relative;
-  display: inline-flex;
-  vertical-align: middle;
-}
-.btn-group > .btn,
-.btn-group-vertical > .btn {
-  position: relative;
-  flex: 1 1 auto;
-}
-.btn-group > .btn-check:checked + .btn,
-.btn-group > .btn-check:focus + .btn,
-.btn-group > .btn:hover,
-.btn-group > .btn:focus,
-.btn-group > .btn:active,
-.btn-group > .btn.active,
-.btn-group-vertical > .btn-check:checked + .btn,
-.btn-group-vertical > .btn-check:focus + .btn,
-.btn-group-vertical > .btn:hover,
-.btn-group-vertical > .btn:focus,
-.btn-group-vertical > .btn:active,
-.btn-group-vertical > .btn.active {
-  z-index: 1;
-}
-
-.btn-toolbar {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-}
-.btn-toolbar .input-group {
-  width: auto;
-}
-
-.btn-group > .btn:not(:first-child),
-.btn-group > .btn-group:not(:first-child) {
-  margin-left: -1px;
-}
-.btn-group > .btn:not(:last-child):not(.dropdown-toggle),
-.btn-group > .btn-group:not(:last-child) > .btn {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-}
-.btn-group > .btn:nth-child(n+3),
-.btn-group > :not(.btn-check) + .btn,
-.btn-group > .btn-group:not(:first-child) > .btn {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-}
 
 
 
