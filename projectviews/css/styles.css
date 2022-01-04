@@ -3492,6 +3492,11 @@ textarea.form-control-lg {
   border-radius: 0.2rem;
 }
 
+
+
+
+
+
 .fade {
   transition: opacity 0.15s linear;
 }
@@ -3528,19 +3533,6 @@ textarea.form-control-lg {
     transition: none;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .navbar {
   position: relative;
