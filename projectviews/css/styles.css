@@ -7193,40 +7193,15 @@ textarea.form-control-lg {
   margin-left: auto !important;
 }
 
-.my-0 {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-}
 
-.my-1 {
-  margin-top: 0.25rem !important;
-  margin-bottom: 0.25rem !important;
-}
 
-.my-2 {
-  margin-top: 0.5rem !important;
-  margin-bottom: 0.5rem !important;
-}
 
-.my-3 {
-  margin-top: 1rem !important;
-  margin-bottom: 1rem !important;
-}
 
-.my-4 {
-  margin-top: 1.5rem !important;
-  margin-bottom: 1.5rem !important;
-}
 
-.my-5 {
-  margin-top: 3rem !important;
-  margin-bottom: 3rem !important;
-}
 
-.my-auto {
-  margin-top: auto !important;
-  margin-bottom: auto !important;
-}
+
+
+
 
 .mt-0 {
   margin-top: 0 !important;
@@ -7255,19 +7230,6 @@ textarea.form-control-lg {
 .mt-auto {
   margin-top: auto !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .text-start {
   text-align: left !important;
