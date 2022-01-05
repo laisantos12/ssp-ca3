@@ -1,6 +1,7 @@
 <?xml version="1.0"?> 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-<xsl:template match="/">
+<!--The match attribute is used to associate a template with an XML element-->
+<xsl:template match="/"> 
     <table id="catalogTable" border="1" class="indent">
         <thead>
             <tr>
@@ -13,7 +14,8 @@
             <xsl:for-each select="//section">
                 <tr>
                     <td colspan="3">
-                        <xsl:value-of select="@name" />
+                    <!--instruction-->
+                        <xsl:value-of select="@name" /> 
                     </td>
                 </tr>
                 <xsl:for-each select="collectibles">
